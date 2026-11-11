@@ -1,0 +1,11 @@
+[Unit]
+Description=Nagyt Hello Service
+
+[Service]
+User=hello-svc
+ExecStart=/opt/hello-service/hello-service.sh
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
