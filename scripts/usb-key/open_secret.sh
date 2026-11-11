@@ -13,7 +13,7 @@ echo "------------------------"
 if lsusb | grep -q "$USB_ID"; then
 echo "Hardware ID check: OK"
 else
-echo "Harware ID check: FAILED"
+echo "Hardware ID check: FAILED"
 fi
 
 if lsblk -f | grep -q "$USB_UUID"; then
