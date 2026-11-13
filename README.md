@@ -31,7 +31,7 @@ Known limits: the UUID and the vendor/product ID can be copied to another stick,
 so this is access control by script, not encryption.
 
 ## Planned
-- [ ] SSH key-based login, password login disabled
+- [x] SSH key-based login, password login disabled
 - [ ] Automated backup with cron or a systemd timer
 - [ ] Bash health-check script (disk, memory, services)
 - [ ] Ansible playbook to rebuild this setup automatically
